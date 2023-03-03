@@ -29,11 +29,15 @@ body,
 }
 
 *::-webkit-scrollbar-track {
-  background: #e0e0e0;
+  background: #c2c2c2;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #444757;
 }
 
 *::-webkit-scrollbar-thumb {
   background-color: #585965;
-  border-radius: 5px;
-  border: 1px solid #000888;
+  border-radius: 3px;
+  /* border: 1px solid #4c4d56; */
 }
