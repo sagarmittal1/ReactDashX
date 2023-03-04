@@ -67,7 +67,7 @@ const Sidebar = () => {
             onClick={() => setIsCollapsed(!isCollapsed)}
             icon={isCollapsed ? <MenuOutlinedIcon /> : undefined}
             style={{
-              margin: '10px 0 20px 0',
+              margin: '0 0 15px 0',
               color: colors.grey[100],
             }}
           >
@@ -79,7 +79,7 @@ const Sidebar = () => {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[100]}>
-                  ReAdmin
+                  ReactAdmin
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -90,7 +90,7 @@ const Sidebar = () => {
 
           {/* User */}
           {!isCollapsed && (
-            <Box mb="25px">
+            <Box mb="20px">
               <Box display="flex" justifyContent="center" alignItems="cemter">
                 <img
                   src={`../../assets/user.jpg`}
@@ -103,7 +103,7 @@ const Sidebar = () => {
 
               <Box textAlign="center">
                 <Typography
-                  variant="h2"
+                  variant="h3"
                   color={colors.grey[100]}
                   fontWeight="bold"
                   sx={{ m: '10px 0 0 0' }}
