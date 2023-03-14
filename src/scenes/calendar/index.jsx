@@ -67,6 +67,7 @@ const Calendar = () => {
                 key={event.id}
                 sx={{
                   backgroundColor: colors.greenAccent[500],
+                  // color: colors.primary[500],
                   margin: '10px 0',
                   borderRadius: '2px',
                 }}

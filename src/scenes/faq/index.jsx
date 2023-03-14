@@ -31,7 +31,7 @@ const FAQ = () => {
           sx={{ backgroundColor: colors.primary[400], borderRadius: '4px' }}
         >
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography color={colors.greenAccent[500]} variant="h5">
+            <Typography color={colors.greenAccent[500]} variant="h4">
               {faq.summary}
             </Typography>
           </AccordionSummary>
