@@ -34,11 +34,27 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
   );
 };
 
+// function to get path name & change according to useState
+const getCurrentPathname = () => {
+  let path = window.location.pathname;
+  path = path.substring(1);
+
+  if (path === '') {
+    path = 'Dashboard';
+  } else {
+    let capitalized = path.charAt(0).toUpperCase() + path.slice(1);
+    path = capitalized;
+  }
+
+  return path;
+};
+
 const Sidebar = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
+  const currentPathname = getCurrentPathname();
   const [isCollapsed, setIsCollapsed] = useState(false);
-  const [selected, setSelected] = useState('Dashboard');
+  const [selected, setSelected] = useState(`Dashboard`);
 
   return (
     <Box
@@ -79,7 +95,7 @@ const Sidebar = () => {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[100]}>
-                  ReactAdmin
+                  ReactDashX
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -111,7 +127,7 @@ const Sidebar = () => {
                   Sagar Mittal
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  Founder & CEO
+                  Frontend Developer
                 </Typography>
               </Box>
             </Box>
