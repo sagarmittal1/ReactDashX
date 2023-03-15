@@ -67,7 +67,7 @@ const Calendar = () => {
                 key={event.id}
                 sx={{
                   backgroundColor: colors.greenAccent[500],
-                  // color: colors.primary[500],
+                  color: colors.primary[500],
                   margin: '10px 0',
                   borderRadius: '2px',
                 }}
@@ -113,8 +113,8 @@ const Calendar = () => {
             eventClick={handleEventClick}
             eventsSet={(events) => setCurrentEvents(events)}
             initialEvents={[
-              { id: '0000', title: 'Test Event', date: '2023-03-14' },
-              { id: '0001', title: 'Send love to Khushi', date: '2023-03-16' },
+              { id: '0000', title: 'Play some Chess', date: '2023-03-14' },
+              { id: '0001', title: 'Watch cat memes', date: '2023-03-16' },
             ]}
           />
         </Box>
