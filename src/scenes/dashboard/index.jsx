@@ -28,11 +28,11 @@ const Dashboard = () => {
               color: colors.grey[100],
               fontSize: '14px',
               fontWeight: 'bold',
-              padding: '8px 15px',
+              padding: '5px 12px',
               borderRadius: '4px',
             }}
           >
-            <DownloadIcon sx={{ mr: '10px' }} />
+            <DownloadIcon sx={{ mr: '8px' }} />
             Download Reports
           </Button>
         </Box>

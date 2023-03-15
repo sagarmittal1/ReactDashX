@@ -55,6 +55,7 @@ const Sidebar = () => {
   const currentPathname = getCurrentPathname();
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [selected, setSelected] = useState(`Dashboard`);
+  console.log(currentPathname);
 
   return (
     <Box

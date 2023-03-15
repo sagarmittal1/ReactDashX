@@ -38,7 +38,7 @@ const Topbar = () => {
           )}
         </IconButton>
         <IconButton>
-          <Badge badgeContent={5} color="secondary">
+          <Badge variant="dot" color="secondary">
             <NotificationsOutlinedIcon />
           </Badge>
         </IconButton>
