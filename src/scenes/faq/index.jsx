@@ -14,7 +14,7 @@ const faqData = [
   {
     summary: 'GitHub Repo of this project?',
     details:
-      'GitHub repo - https://github.com/sagarmittal1/react-admin-dashboard . Please give it a ⭐, if you like it.',
+      'GitHub repo - https://github.com/sagarmittal1/ReactDashX . Please give it a ⭐, if you like it.',
   },
   {
     summary: 'What Charts I used?',
@@ -24,7 +24,7 @@ const faqData = [
   {
     summary: 'Which mockData I used for Charts & tables?',
     details:
-      'The data I used can be found here - https://github.com/sagarmittal1/react-admin-dashboard/blob/main/src/data/mockData.js',
+      'The data I used can be found here - https://github.com/sagarmittal1/ReactDashX/blob/main/src/data/mockData.js',
   },
   {
     summary: 'Something IMPORTANT regarding this web-app!',
@@ -34,7 +34,7 @@ const faqData = [
   {
     summary: 'My Introduction !!!',
     details:
-      'Hey I am Sagar Mittal. I have interest in frontend development. Currently I am learning NextJS. I like to build projects using ReactJS & Vanilla JavaScript',
+      'Hey I am Sagar Mittal. I have interest in frontend development. Currently I am learning NextJS. I like to build projects using ReactJS & Vanilla JavaScript.',
   },
   {
     summary: 'Where can I found. Any Socials??',
