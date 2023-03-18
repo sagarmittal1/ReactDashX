@@ -2,6 +2,7 @@ import { Box, useTheme } from '@mui/material';
 import { DataGrid, GridToolbar } from '@mui/x-data-grid';
 import { tokens } from '../../theme';
 import { mockDataContacts } from '../../data/mockData';
+import { Helmet } from 'react-helmet';
 
 import Header from '../../components/Header';
 
@@ -53,6 +54,9 @@ const Contacts = () => {
 
   return (
     <Box m="15px">
+      <Helmet>
+        <title>Contacts | ReactDashX</title>
+      </Helmet>
       <Header title="CONTACTS" subtitle="List of Contacts for Reference" />
       <Box
         m="30px 0 0 0"

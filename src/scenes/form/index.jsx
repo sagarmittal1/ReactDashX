@@ -4,6 +4,7 @@ import * as yup from 'yup';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import SendIcon from '@mui/icons-material/Send';
 import Header from '../../components/Header';
+import { Helmet } from 'react-helmet';
 
 const initialValues = {
   firstName: '',
@@ -38,6 +39,9 @@ const Form = () => {
 
   return (
     <Box m="15px">
+      <Helmet>
+        <title>Profile Form | ReactDashX</title>
+      </Helmet>
       <Header title="CREATE USER" subtitle="Create a New User Profile" />
 
       <Formik

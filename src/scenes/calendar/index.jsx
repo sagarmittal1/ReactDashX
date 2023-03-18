@@ -15,6 +15,7 @@ import {
 } from '@mui/material';
 import { tokens } from '../../theme';
 import Header from '../../components/Header';
+import { Helmet } from 'react-helmet';
 
 const Calendar = () => {
   const theme = useTheme();
@@ -50,6 +51,9 @@ const Calendar = () => {
 
   return (
     <Box m="15px">
+      <Helmet>
+        <title>Calendar | ReactDashX</title>
+      </Helmet>
       <Header title="CALENDAR" subtitle="Full Calendar Interactive Page" />
 
       <Box display="flex" justifyContent="space-between">

@@ -2,6 +2,7 @@ import { Box, Typography, useTheme } from '@mui/material';
 import { DataGrid } from '@mui/x-data-grid';
 import { tokens } from '../../theme';
 import { mockDataInvoices } from '../../data/mockData';
+import { Helmet } from 'react-helmet';
 
 import Header from '../../components/Header';
 
@@ -46,6 +47,9 @@ const Invoices = () => {
 
   return (
     <Box m="15px">
+      <Helmet>
+        <title>Invoices | ReactDashX</title>
+      </Helmet>
       <Header title="INVOICES" subtitle="List of Invoices Sheet" />
       <Box
         m="30px 0 0 0"

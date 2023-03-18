@@ -3,6 +3,7 @@ import { Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { tokens } from '../../theme';
 import Header from '../../components/Header';
+import { Helmet } from 'react-helmet';
 
 const faqData = [
   {
@@ -53,6 +54,9 @@ const FAQ = () => {
 
   return (
     <Box m="15px">
+      <Helmet>
+        <title>FAQ | ReactDashX</title>
+      </Helmet>
       <Header title="FAQ" subtitle="Frequently Asked Questions" />
 
       {faqData.map((faq) => (

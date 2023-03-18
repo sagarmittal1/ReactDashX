@@ -12,6 +12,7 @@ import BarChart from '../../components/BarChart';
 import GeographyChart from '../../components/GeographyChart';
 import ProgressCircle from '../../components/ProgressCircle';
 import StatBox from '../../components/StatBox';
+import { Helmet } from 'react-helmet';
 
 const Dashboard = () => {
   const theme = useTheme();
@@ -19,6 +20,9 @@ const Dashboard = () => {
 
   return (
     <Box m="15px">
+      <Helmet>
+        <title>Dashboard | ReactDashX</title>
+      </Helmet>
       <Box display="flex" justifyContent="space-between" alignItems="center">
         <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
         <Box>
