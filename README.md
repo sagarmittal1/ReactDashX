@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# ReactDashX - React Admin Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A complete dashboard containing admin panel & pages like data table & various charts. It has dark/light theme with proper color palette.
 
-## Available Scripts
+## Tech Stack
 
-In the project directory, you can run:
+ReactJS, [MUI](https://mui.com/), [Data Grid](https://mui.com/x/react-data-grid/getting-started/) [Nivo Charts](https://nivo.rocks/), [FullCalendar](https://fullcalendar.io/), [React ProSidebar](https://www.npmjs.com/package/react-pro-sidebar), Formik, Yup, React Router DOM
 
-### `yarn start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Dark/Light Mode
+- Collapsible sidebar
+- Contains various chart Bar Chart, Pie Chart, Line Chart, Geography Chart
+- Many Data Grid pages to show data in easy way.
+- Calendar Page to add, edit & remove events.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Things I want to improve/explore further
 
-### `yarn test`
+- Make it complete responsive.
+- Learn backend & make the data fetched from server in realtime.
+- Explore more Nivo Charts especially Heatmap Chart.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Page| Dark | Light |
+| --- | ---- | ----- |
+| Dashboard | ![image](https://user-images.githubusercontent.com/54253848/235673258-0f26cfb2-f05a-4eec-93a2-00d7f670511a.png) | ![image](https://user-images.githubusercontent.com/54253848/235673379-7de8cdc1-9e42-4979-9c4e-d2fa5e34647f.png) | 
+| Contacts | ![image](https://user-images.githubusercontent.com/54253848/235721410-f43a1775-3006-4f4c-9e0f-7ad0f6ca0565.png) | ![image](https://user-images.githubusercontent.com/54253848/235721502-0199530b-eec2-49ca-8b3e-ee4159e50433.png) | 
+| Calendar | ![image](https://user-images.githubusercontent.com/54253848/235721982-94b5dc81-368e-430c-b7a1-5af0cb844408.png) | ![image](https://user-images.githubusercontent.com/54253848/235721786-8d9e1356-4d7a-4138-829f-8d940f60791e.png) | 
+| Bar Chart | ![image](https://user-images.githubusercontent.com/54253848/235722289-1df98bb2-dcf3-463f-8a3d-5c64ea10b8f1.png) | ![image](https://user-images.githubusercontent.com/54253848/235722353-f5a1c914-7949-4a39-afb4-e4822c0d2bb8.png) | 
+| Pie Chart | ![image](https://user-images.githubusercontent.com/54253848/235722456-b269e350-1a0c-4fc4-8e5c-a1c8cca1affe.png) | ![image](https://user-images.githubusercontent.com/54253848/235722525-a27cb207-3863-49c9-8f6c-3ae0b51efd3b.png) |
+| Geography Chart | ![image](https://user-images.githubusercontent.com/54253848/235722663-424cb68d-aac0-4f01-a778-53c8a4444a5a.png) | ![image](https://user-images.githubusercontent.com/54253848/235722714-f531de79-6725-4397-9867-f1c4b5e20447.png) | 
+| Line Chart | ![image](https://user-images.githubusercontent.com/54253848/235722957-f1f864d5-a6b8-4f23-b80e-c8c450b1b409.png) | ![image](https://user-images.githubusercontent.com/54253848/235722999-fd5c6ad7-51e4-4af2-a6e4-56bf4e78332f.png) |
+| & more... | | |
